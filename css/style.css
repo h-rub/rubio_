@@ -1,0 +1,123 @@
+:root{
+    --white: #ffffff;
+    --grey: #fafafafa;
+    --green: #017982;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.bg-grey { background-color: var(--grey);}
+.bg-light { background-color: var(--light) !important;}
+
+.navbar{
+    min-height: 5rem;
+}
+
+.blink {
+    color: #d88;
+    font-size: 1.5em;
+    animation: blink-anim 1s ease 0s infinite alternate;
+  }
+  
+  @keyframes blink-anim {
+    from { opacity: 1; }
+    to { opacity: 0; }
+  }
+
+/* Jumbotron */
+
+.jumbotron h2 {
+    font-size: 50px;
+  }
+  
+  .jumbotron h2 span {
+    color:  var(--green);
+  }
+  .jumbotron img{
+      width: 300px;
+      height: 300px;
+  }
+
+.lead{
+    font-size: 1.8rem;
+}
+
+.lead-menu{
+    font-size: 1.5rem;
+}
+
+.read-more{
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.resalted{
+    font-size: 2rem;
+    color: var(--green);
+}
+
+.articles article{
+    position: relative;
+    background:#ffffff;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+    margin: 9px 11px;
+    border-radius: 20px;
+}
+
+
+.articles-header{
+    padding: 10px 0;
+    border-bottom: 1px solid #eceff2;
+    margin-bottom: 10px;
+}
+
+
+.yellow-cat{
+    background-color: #FDD200;
+    min-height: 270px;
+    height: auto;
+    width:30px;
+}
+
+.bootstrap-cat{
+    background-color: #563D7C;
+    min-height: 270px;
+    height: auto;
+    width:30px;
+}
+
+
+.title{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.category{
+    color:yellow;
+}
+
+.content-p{
+    font-weight: 400;
+}
+
+.resalted-min{
+    font-size: 1rem;
+    color: var(--green);
+    font-weight: 600;
+}
+
+.navbar-right{
+    float: right;
+    margin-left: auto;
+}
+
+.mr-right{
+    margin-right: 1rem;
+}
+
+.py-6{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
